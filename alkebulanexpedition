@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Alkebulan Expedition</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-green-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl font-bold">The Alkebulan Expedition</h1>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-gray-800 text-white py-2">
+        <div class="container mx-auto text-center">
+            <a href="#namibian-tour" class="px-4">Namibian Tour</a>
+            <a href="#serengeti-tour" class="px-4">Serengeti Tour</a>
+            <a href="#kenya-tour" class="px-4">Kenya Tour</a>
+            <a href="#others" class="px-4">Others</a>
+            <a href="#contact" class="px-4">Contact Me</a>
+            <a href="#about" class="px-4">About Us</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto my-8">
+        <!-- Namibian Tour Section -->
+        <section id="namibian-tour" class="py-8">
+            <h2 class="text-2xl font-bold mb-4">Namibian Tour</h2>
+            <p class="mb-4">Explore the vast deserts and rich culture of Namibia...</p>
+        </section>
+
+        <!-- Serengeti Tour Section -->
+        <section id="serengeti-tour" class="py-8">
+            <h2 class="text-2xl font-bold mb-4">Serengeti Tour</h2>
+            <p class="mb-4">Experience the wildlife and beauty of the Serengeti...</p>
+        </section>
+
+        <!-- Kenya Tour Section -->
+        <section id="kenya-tour" class="py-8">
+            <h2 class="text-2xl font-bold mb-4">Kenya Tour</h2>
+            <p class="mb-4">Discover the landscapes and traditions of Kenya...</p>
+        </section>
+
+        <!-- Others Section -->
+        <section id="others" class="py-8">
+            <h2 class="text-2xl font-bold mb-4">Other Tours</h2>
+            <p class="mb-4">Check out our other exciting tour options...</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-8">
+            <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+            <form class="max-w-md mx-auto bg-white p-6 rounded shadow-md">
+                <div class="mb-4">
+                    <label class="block mb-2 font-bold">Name</label>
+                    <input type="text" class="w-full p-2 border rounded">
+                </div>
+                <div class="mb-4">
+                    <label class="block mb-2 font-bold">Email</label>
+                    <input type="email" class="w-full p-2 border rounded">
+                </div>
+                <div class="mb-4">
+                    <label class="block mb-2 font-bold">Message</label>
+                    <textarea class="w-full p-2 border rounded"></textarea>
+                </div>
+                <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded">Submit</button>
+            </form>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-8">
+            <h2 class="text-2xl font-bold mb-4">About Us</h2>
+            <p class="mb-4">Learn more about The Alkebulan Expedition...</p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 The Alkebulan Expedition. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
